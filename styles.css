@@ -1,0 +1,229 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+}
+
+.title{
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  letter-spacing: 10px;
+  padding-top: 70px;
+}
+.title h4{
+  margin: 5px;
+  color: hsl(183, 100%, 15%);
+  cursor: default;
+}
+.main-cointainer{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  width: 640px;
+  grid-template-columns: 330px 290px 20px;
+  grid-template-rows: 20px 80px 141px 120px 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.display-results{
+  background-color: hsl(183, 100%, 15%);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  border-radius: 5%;
+  display: grid;
+  grid-template-columns: 75px 170px;
+  grid-template-rows: 50px 20px 20px 40px 20px 20px 150px;
+  padding-left: 30px;
+
+}
+.bill{
+  align-items: center;
+}
+.people{
+  grid-row-start: 4;
+  grid-column-start: 1;
+}
+.inputlabel {
+  color: hsl(186, 14%, 43%);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+.inputArea{
+  height: 35px;
+  width: 252px;
+  margin-left: 30px;
+  direction: rtl;
+  font-family: 'Space Mono', monospace;
+  color: hsl(183, 100%, 15%);
+  font-size: 140%;
+  font-weight: bold;
+  background-color: hsl(189, 41%, 97%);
+  border: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.inputArea:focus{
+  outline-color: hsl(172, 67%, 45%);
+}
+.tips{
+  align-items: center;
+  justify-content: center;
+  width: 272px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-start: 1;
+  grid-row-start: 3;
+  display: grid;
+  grid-template-columns: 84px 84px 84px;
+  grid-template-rows: 41px 41px 41px;
+  grid-gap: 9px;
+}
+.attribution{
+  display:none;
+}
+
+.tip-box:hover{
+  background-color: hsl(185, 41%, 84%);
+}
+.tip-box{
+  background-color: hsl(183, 100%, 15%);
+  height: 41px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.tip-box h3{
+  color: white;
+  font-family: 'Space Mono', monospace;
+  position: relative;
+  bottom: 22px;
+  height: 38px;
+  padding-top: 9px;
+}
+.tip-box h3:hover{
+  color: black;
+}
+.tips h5{
+  font-size: 70%;
+  color: hsl(186, 14%, 43%);
+  font-family: 'Space Mono', monospace;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.display-results #total{
+  color: white;
+  font-size: 70%;
+  grid-row-start: 5;
+  grid-column-start: 1;
+  font-family: 'Space Mono', monospace;
+}
+.display-results #person1{
+  grid-row-start: 6;
+  grid-column-start: 1;
+  font-family: 'Space Mono', monospace;
+  color: hsl(184, 14%, 56%);
+  font-size: 60%;
+}
+.display-results #tip{
+  grid-row-start: 2;
+  color: white;
+  font-size: 70%;
+  grid-column-start: 1;
+  font-family: 'Space Mono', monospace;
+}
+.display-results #person2{
+  grid-row-start: 3;
+  color: hsl(184, 14%, 56%);
+  font-family: 'Space Mono', monospace;
+  grid-column-start: 1;
+  font-size: 60%;
+}
+
+.reset{
+  grid-row-start: 7;
+  height: 10px;
+  width: 200px;
+  background-color: hsl(172, 67%, 45%);
+  font-family: 'Space Mono', monospace;
+  color: hsl(183, 100%, 15%);
+  font-weight: 900;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.result{
+  color: hsl(172, 67%, 45%);
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 200%;
+  bottom: 5px;
+  direction: rtl;
+}
+.resultTotal{
+  grid-column-start: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.resultTip{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#five{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+#ten{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+#fifteen{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+#twfive{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+#fifty{
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+.box-selected{
+  background-color: hsl(172, 67%, 45%);
+}
+.error{
+  border: 1px solid #d13a3a;
+  border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cantbe{
+  font-family: 'Space Mono', monospace;
+  color: #d13a3a;
+  font-size: 70%;
+  display: inline-block;
+  margin-left: 50px;
+  visibility: hidden;
+}
+.cantbeShow{
+  visibility: visible;
+}

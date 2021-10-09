@@ -206,9 +206,11 @@ body{
 }
 #billValue{
     background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+    background-color: hsl(189, 41%, 97%);
 }
 #peopleValue{
     background: url(images/icon-person.svg) no-repeat scroll 7px 7px;
+    background-color: hsl(189, 41%, 97%);
 }
 
 .box-selected{

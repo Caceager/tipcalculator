@@ -204,6 +204,13 @@ body{
   grid-column-start: 2;
   grid-row-start: 3;
 }
+#billValue{
+    background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+}
+#peopleValue{
+    background: url(images/icon-person.svg) no-repeat scroll 7px 7px;
+}
+
 .box-selected{
   background-color: hsl(172, 67%, 45%);
 }
